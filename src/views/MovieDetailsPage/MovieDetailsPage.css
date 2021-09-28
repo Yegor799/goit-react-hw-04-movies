@@ -1,0 +1,17 @@
+.MovieGallery-image {
+  height: 450px;
+  margin-right: 15px;
+}
+
+.MovieDetailsPage {
+  display: flex;
+}
+
+.MovieDetailsPage-genres {
+  display: flex;
+  padding: 0;
+}
+
+.MovieDetailsPage-genres__item {
+  margin-right: 5px;
+}

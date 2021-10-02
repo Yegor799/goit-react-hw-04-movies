@@ -26,3 +26,7 @@ export function fetchReviews(movieId) {
   return fetchWithErrorHandling(`https://api.themoviedb.org/3/movie/${movieId}/reviews?api_key=${API_KEY}`);
 }
 
+export function searcMovie(movie) {
+  return fetchWithErrorHandling(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${movie}`);
+}
+
